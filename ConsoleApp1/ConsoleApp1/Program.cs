@@ -14,7 +14,6 @@ namespace ConsoleApp1
             Console.ReadKey();
             if (round != 30 )
             {
-
             }
             else
             {
