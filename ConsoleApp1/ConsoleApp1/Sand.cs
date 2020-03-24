@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Slutproject 2020 hugo
+namespace slutproject2020
 {
-    class hududklass
-{
-}
+    class Sand:Områden
+    {
+    }
 }
