@@ -6,5 +6,6 @@ namespace slutproject2020
 {
     class Skog:Områden
     {
+        private float currencydrain = 0.8f;
     }
 }
