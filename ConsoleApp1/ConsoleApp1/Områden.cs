@@ -8,9 +8,12 @@ namespace slutproject2020
     {
         public string Area;
         public int väder = 10;
-        
 
-            
+        public  float currencydrain = 0;
+
+
 
     }
+
+    
 }

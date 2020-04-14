@@ -6,6 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            string biomchose;
             int round = 0;
             int Money = 30000;
             Console.WriteLine("Welcome to kingdome game!");
@@ -17,11 +18,23 @@ namespace ConsoleApp1
 
             while( round != 30 )
             {
-                Console.WriteLine("chose on of the following bioms to ");
+                Console.WriteLine("chose on of the following bioms to invest in ");
+                Console.WriteLine("Träsk");
+                Console.WriteLine("Skog");
+                Console.WriteLine("sand");
+               biomchose =  Console.ReadLine();
+                if (biomchose == "träsk")
+                {
 
-                Console.ReadLine();
+                }
+                if (biomchose == "skog")
+                {
+
+
+                }
+                if (biomchose == "sand")
                 round++;
-                return;
+                
             }
            
         }
