@@ -6,8 +6,11 @@ namespace slutproject2020
 {
     class Sand:Områden
     {
+        public Sand ()
+        {
 
-         float currencydrain = 1.4f;
+         currencydrain = 1.4f;
 
+        }
     }
 }

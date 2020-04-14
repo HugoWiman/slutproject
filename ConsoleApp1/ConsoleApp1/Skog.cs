@@ -5,7 +5,14 @@ using System.Text;
 namespace slutproject2020
 {
     class Skog:Områden
+     
     {
-          float currencydrain = 0.8f;
+        public  Skog()
+        {
+            currencydrain = 0.8f;
+        }
+
+           
+            
     }
 }

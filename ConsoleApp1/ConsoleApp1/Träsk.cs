@@ -4,8 +4,11 @@ using System.Text;
 
 namespace slutproject2020
 {
-    class Träsk:Områden
+    class Träsk : Områden
     {
-        private float currencydrain = 1.2f;
+        public Träsk()
+        {
+            currencydrain = 1.2f;
+        }
     }
 }

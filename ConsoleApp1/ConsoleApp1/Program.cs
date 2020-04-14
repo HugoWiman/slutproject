@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp1
+namespace slutproject2020
 {
     class Program
     {
@@ -15,28 +15,26 @@ namespace ConsoleApp1
             Console.WriteLine("Starting founds are 30 000");
 
             Console.ReadKey();
-
-            while( round != 30 )
+            //skappa list med områden-
+            //få klassen att fungera-
+            while (round != 30)
             {
-                Console.WriteLine("chose on of the following bioms to invest in ");
-                Console.WriteLine("Träsk");
-                Console.WriteLine("Skog");
-                Console.WriteLine("sand");
-               biomchose =  Console.ReadLine();
-                if (biomchose == "träsk")
-                {
-
-                }
-                if (biomchose == "skog")
-                {
-
-
-                }
-                if (biomchose == "sand")
-                round++;
-                
+                Console.WriteLine("chose how much money you want to invest. ");
+              
+                biomchose = Console.ReadLine();
+                bool temp = int.TryParse(biomchose, out int result);
+               float valu = Skog.multi(result);
+                Console.WriteLine(valu);
+                Console.ReadLine();
+                   
             }
-           
-        }
+        }    
+
     }
+
+
+
+
 }
+    
+

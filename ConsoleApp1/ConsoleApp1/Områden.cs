@@ -4,16 +4,22 @@ using System.Text;
 
 namespace slutproject2020
 {
-    class Områden
+   class Områden
     {
         public string Area;
         public int väder = 10;
 
-        public  float currencydrain = 0;
+        public   float currencydrain;
+
+        public  float multi (int A)
+        {
+            return A *currencydrain;
+        }
+
 
 
 
     }
 
-    
+
 }
