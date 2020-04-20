@@ -9,6 +9,7 @@ namespace slutproject2020
     {
         public  Skog()
         {
+            Area = "skog";
             currencydrain = 0.8f;
         }
 

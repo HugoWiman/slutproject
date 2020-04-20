@@ -8,7 +8,7 @@ namespace slutproject2020
     {
         public Sand ()
         {
-
+            Area = "sand";
          currencydrain = 1.4f;
 
         }
