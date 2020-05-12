@@ -15,6 +15,7 @@ namespace slutproject2020
         {
             return A *currencydrain;
         }
+        // Den här metoden tar den och multiplicerar med vad för värde som ska in beronde på vilket område som är valt
 
 
 
